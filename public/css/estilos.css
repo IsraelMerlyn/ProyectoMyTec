@@ -1,79 +1,223 @@
 body{
-    font: 15px Arial, Helvetica,sans-serif;
-    padding:0;
-    margin:0;
-    background-color:#f4f4f4;
-  }
-  
-  /* Estilos globales */
-  .contenedor{
-    width:80%;
-    margin:auto;
-    overflow:hidden;
-  }
-  
-  ul{
-    margin:0;
-    padding:0;
-  }
-  
-  .boton1{
-    height:38px;
-    background:#e8491d;
-    border:0;
-    padding-left: 20px;
-    padding-right:20px;
-    color:#ffffff;
-  }
-  
-  .oscuro{
-    padding:15px;
-    background:#35424a;
-    color:#ffffff;
-    margin-top:10px;
-    margin-bottom:10px;
-  }
+  font: 15px Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+}
+
+/* Estilos globales */
+.contenedor{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+.boton1{
+  height:38px;
+  background:#e8491d;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#ffffff;
+}
+
+.oscuro{
+  padding:15px;
+  background:#35424a;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
 /* Encabezado **/
 header{
-    background:#24282b;
-    color:#ffffff;
-    padding-top:30px;
-    min-height:70px;
-    border-bottom:#1293d4 5px solid;
+  background:#24282b;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#1293d4 5px solid;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+/* float:left;*/
+header li{
+ 
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #marca{
+  float:left;
+}
+
+header #marca h1{
+  margin:0;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .resaltado, header .actual a{
+  color:#1293d4;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+/* Cabecera con imagen */
+#cabecera{
+  min-height:400px;
+  background:url('../img/cabecera.jpg') no-repeat 0 -400px;
+  text-align:center;
+  color:#ffffff;
+}
+
+#cabecera h1{
+  margin-top:100px;
+  font-size:55px;
+  margin-bottom:10px;
+}
+
+#cabecera p{
+  font-size:20px;
+}
+
+/* Formulario */
+#boletin{
+  padding:15px;
+  color:#ffffff;
+  background:#24282b;
+}
+
+#boletin h1{
+  float:left;
+}
+
+#boletin form {
+  float:right;
+  margin-top:15px;
+}
+
+#boletin input[type="email"]{
+  padding:4px;
+  height:25px;
+  width:250px;
+}
+
+/* Cajas */
+#cajas{
+  margin-top:20px;
+}
+
+#cajas .caja{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+
+#cajas .caja img{
+  width:90px;
+}
+
+/* Lateral */
+aside#lateral{
+  float:right;
+  width:30%;
+  margin-top:10px;
+}
+
+/* Main-col */
+article#main-col{
+  float:left;
+  width:65%;
+}
+
+/* Servicios */
+ul#servicios li{
+  list-style: none;
+  padding:20px;
+  border: #cccccc solid 1px;
+  margin-bottom:5px;
+  background:#e6e6e6;
+}
+
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color:#1293d4;
+  text-align: center;
+}
+
+
+/* Estilos para el formulario de contacto */
+
+input, textarea{
+  width: 100%;
+  height: 35px;
+  border: 1px solid gray; 
+  margin-bottom: 5px;
+}
+
+textarea{
+  height: 120px;
+}
+
+input[type='submit']{
+  background-color: #e8491d;
+  color: #fff;  
+}
+
+/* Media Queries */
+@media(max-width: 768px){
+  header #marca,
+  header nav,
+  header nav li,
+  #boletin h1,
+  #boletin form,
+  #cajas .caja,
+  article#main-col,
+  aside#lateral{
+    float:none;
+    text-align:center;
+    width:100%;
   }
-  
-  header a{
-    color:#ffffff;
-    text-decoration:none;
-    text-transform: uppercase;
-    font-size:16px;
+
+  header{
+    padding-bottom:20px;
   }
-  
-  header li{
-    float:left;
-    display:inline;
-    padding: 0 20px 0 20px;
+
+  #boletin h1{
+    margin-top:40px;
   }
-  
-  header #marca{
-    float:left;
+
+  #boletin button{
+    display:block;
+    width:100%;
   }
-  
-  header #marca h1{
-    margin:0;
+
+  #boletin form input[type="email"]{
+    width:100%;
+    margin-bottom:5px;
   }
-  
-  header nav{
-    float:right;
-    margin-top:10px;
+
+  input, textarea{
+    width: 98%; 
   }
-  
-  header .resaltado, header .actual a{
-    color:#1293d4;
-    font-weight:bold;
-  }
-  
-  header a:hover{
-    color:#cccccc;
-    font-weight:bold;
-  } 
+}

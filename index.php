@@ -42,7 +42,7 @@
     <section id="cajas">
       <div class="contenedor">
         <div class="caja">
-          <img src="./img/logo_html.png">
+          <img src="./Image/logo_html.png">
           <h3>Programacion Web HTML5</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
         </div>
@@ -52,7 +52,7 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
         </div>
         <div class="caja">
-          <img src="./Image/logo_brush.png">
+          <!--<img src="./Image/logo_brush.png">-->
           <h3>Jovenes Escribiendo el futuro</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
         </div>

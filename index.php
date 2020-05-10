@@ -47,12 +47,12 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
         </div>
         <div class="caja">
-          <img src="./img/logo_css.png">
+          <img src="./Image/logo_css.png">
           <h3>Ingeneria de software</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
         </div>
         <div class="caja">
-          <img src="./img/logo_brush.png">
+          <img src="./Image/logo_brush.png">
           <h3>Jovenes Escribiendo el futuro</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
         </div>

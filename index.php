@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="public/css/estilos.css">
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
 <header>
@@ -22,16 +22,17 @@
         </nav>
       </div>
     </header>
+    
     <section id="cabecera">
       <div class="contenedor">
         <h1>Bienvenidos a MyTec</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu luctus ipsum, rhoncus semper magna. Nulla nec magna sit amet sem interdum condimentum.</p>
+        <p>Estas son las tareas pendientes que tiene usted.</p>
       </div>
     </section>
 
     <section id="boletin">
       <div class="contenedor">
-        <h1>Subscríbete a nuestro boletín</h1>
+        <h1>Si tiene errores en la plaforme escribe su correo</h1>
         <form>
           <input type="email" placeholder="Ingrese el Email...">
           <button type="submit" class="boton1">Subscríbete</button>
@@ -42,17 +43,17 @@
     <section id="cajas">
       <div class="contenedor">
         <div class="caja">
-          <img src="./Image/logo_html.png">
+          <img src="Image/logo_html.png">
           <h3>Programacion Web HTML5</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
+          <p>Ingrese para poder ver sus tareas pendientes</p>
         </div>
         <div class="caja">
-          <img src="./Image/logo_css.png">
+          <img src="Image/logo_css.png">
           <h3>Ingeneria de software</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
         </div>
         <div class="caja">
-          <!--<img src="./Image/logo_brush.png">-->
+          <img src="Image/beca.jpg">
           <h3>Jovenes Escribiendo el futuro</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
         </div>

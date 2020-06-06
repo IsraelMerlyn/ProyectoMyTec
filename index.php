@@ -15,9 +15,10 @@
         <nav>
           <ul>
             <li class="actual"><a href="index.html">Inicio</a></li>
-            <li><a href="nosotros.html">Nosotros</a></li>
-            <li><a href="servicios.html">Servicios</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="nosotros.html">Cursos</a></li>
+            <li><a href="servicios.html">Contacto</a></li>
+            <li><a href="contacto.html">Registrar</a></li>
+            <li><a href="contacto.html">Iniciar Session</a></li>
           </ul>
         </nav>
       </div>
@@ -32,10 +33,11 @@
 
     <section id="boletin">
       <div class="contenedor">
-        <h1>Si tiene errores en la plaforme escribe su correo</h1>
+        
         <form>
-          <input type="email" placeholder="Ingrese el Email...">
-          <button type="submit" class="boton1">Subscríbete</button>
+        <h1>Buscar Curso</h1>
+          <input type="text" placeholder="Buscar Curso">
+          <button type="submit" class="boton1">Buscar Curso</button>
         </form>
       </div>
     </section>

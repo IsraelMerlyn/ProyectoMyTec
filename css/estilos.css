@@ -82,7 +82,8 @@ header a:hover{
 /* Cabecera con imagen */
 #cabecera{
   min-height:400px;
-  background:url('../Image/cabecera.jpg') no-repeat 0 -400px;
+ /* background:url('../Image/cabecera.jpg') no-repeat 0 -400px;*/
+ background:url('../Image/fondo.jpg') -10px;
   text-align:center;
   color:#ffffff;
 }
@@ -104,9 +105,10 @@ header a:hover{
   background:#24282b;
 }
 
-#boletin h1{
+/*#boletin h1{
+  
   float:left;
-}
+}*/
 
 #boletin form {
   float:right;

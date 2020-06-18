@@ -20,12 +20,12 @@ try {
 */
     public function conectar()
     {
-        $contraseña = "1408";
-$usuario = "postgres";
-$nombreBaseDeDatos = "aula";
+        $contraseña = "1393b8a84f002dab4a2b350bd6b7acd2beb834ebdaf3892693e77eee61398b05";
+$usuario = "lkngsjmwvhibcx";
+$nombreBaseDeDatos = "dae4evllq56aes";
 # Puede ser 127.0.0.1 o el nombre de tu equipo; o la IP de un servidor remoto
-$rutaServidor = "127.0.0.1";
-$puerto = "5433";
+$rutaServidor = "ec2-34-197-141-7.compute-1.amazonaws.com";
+$puerto = "5432";
         $link = new PDO("pgsql:host=$rutaServidor;port=$puerto;dbname=$nombreBaseDeDatos", $usuario, $contraseña);
       //  $link = new PDO("mysql:host=127.0.0.1;dbname=aula", "root", "1408");
         return $link;

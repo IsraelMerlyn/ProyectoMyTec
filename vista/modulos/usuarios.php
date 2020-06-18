@@ -51,10 +51,12 @@ if(!$_SESSION["validar"]){
     <body>
         
   <div class="container box">
+  <a class="btn btn-primary pull-right" href="salir">Cerrar Sesión</a>
+  
   <h1 class="page-header">Bienvenido Administrador</h1>
 
 
-<a class="btn btn-primary pull-right" href="salir">Cerrar Sesión</a>
+
 <!-- <a class="btn btn-primary pull-right" href="index.php?action=salir">Cerrar Sesión</a> -->
 
 <br><br><br>

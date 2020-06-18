@@ -51,7 +51,7 @@ if(!$_SESSION["validar"]){
     <body>
         
   <div class="container box">
-  <h1 class="page-header">CRUD con el patrón MVC en PHP POO y PDO </h1>
+  <h1 class="page-header">Bienvenido Administrador</h1>
 
 
 <a class="btn btn-primary pull-right" href="salir">Cerrar Sesión</a>

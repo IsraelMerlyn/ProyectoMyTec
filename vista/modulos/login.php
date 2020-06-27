@@ -42,14 +42,14 @@ ob_start();
 	    <input type="submit" class="sign-in" value="Iniciar Sesión">
         <hr class="my-4"><br>
 
-        
+      <!---  
 	  </form>
 	  <div class="card-body">
         <form class="form-signin">
         <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit"><i class="fab fa-google mr-2"></i> Sign in with Google</button>
         <button class="btn btn-lg btn-facebook btn-block text-uppercase" type="submit"><i class="fab fa-facebook-f mr-2"></i> Sign in with Facebook</button>
         </form>  
-      </div>      
+      </div>      --->
 			<?php
 			if(isset($_GET["action"])){
 

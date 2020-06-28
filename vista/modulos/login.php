@@ -41,9 +41,9 @@ ob_start();
 	 <!---   <input type="submit" class="sign-in" value="Iniciar Sesión">--->
 	    <input type="submit" class="sign-in" value="Iniciar Sesión">
         <hr class="my-4"><br>
-
+		</form>
       <!---  
-	  </form>
+	  
 	  <div class="card-body">
         <form class="form-signin">
         <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit"><i class="fab fa-google mr-2"></i> Sign in with Google</button>
